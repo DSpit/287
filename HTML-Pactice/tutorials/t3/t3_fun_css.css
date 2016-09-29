@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+button {
+	background-color: 		blue;
+	height:					100px;
+	width: 					150px;
+	border-width: 			0px;
+	border-radius:			15px;
+}
+
+button span	{
+	font:					bold 16px Areal, "sans-serif";
+	color:					white;
+	opacity:				0;
+	transition:				0.5s;
+}
+
+button span:hover {
+	opacity:				1;
+	transition:				0.5s;
+
+}
+
+
+
