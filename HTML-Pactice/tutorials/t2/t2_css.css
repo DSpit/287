@@ -1,0 +1,13 @@
+@CHARSET "utf-8";
+
+table {
+	height: 100%;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol {
+	list-style-type: lower-alpha;
+}
