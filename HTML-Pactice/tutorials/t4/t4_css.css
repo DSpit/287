@@ -1,0 +1,30 @@
+@CHARSET "utf-8";
+
+.prompt {
+	display:		inline-block;
+	width:			200px;
+	
+}
+
+.row	{
+	display:		inline-block;
+}
+
+.column	{
+	display:		inline-block;
+}
+
+.column p	{
+	display:		inline;
+}
+
+label {
+	display:		block;
+	vertical-align: middle;
+}
+
+textarea	{
+	height:			100px;
+}
+
+

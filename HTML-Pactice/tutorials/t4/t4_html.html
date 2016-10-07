@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Application Form</title>
+		<link rel="stylesheet" type="text/css" href="t4_css.css" />
+	</head>
+	
+	<body>
+		<form action="" method="get">
+			<fieldset>
+				<legend>Application Form:</legend>
+				<label>
+					<p class="prompt">Full Name:</p>
+					<input type="text" name="name" size="30"/>
+				</label>
+				
+				<label>
+					<p class="prompt">Email: </p>
+					<input type="email" name="email" size="30"/>
+				</label>
+				
+				<label>
+					<p class="prompt">Gender: </p> 
+					<input type="radio" name="gender" value="male" checked="checked"/> Male 
+					<input type="radio" name="gender" value="female" /> Female
+				</label>
+				
+				<label> 
+					<p class="prompt">Nationality:</p>
+					<select>
+						<option>-Select-</option>
+					</select>
+				</label>
+				
+				<label>
+					<p class="prompt">Skills</p>
+					<div class="row">
+						<div class="column">
+							<label><input type="checkbox" name="skill" value="ASP.NET" /><p>ASP.NET</p></label>
+							<label><input type="checkbox" name="skill" value="MVC" /> <p>MVC</p></label>
+						</div>
+						<div class="column">
+							<label><input type="checkbox" name="skill" value="jQuery" /> <p>jQuery</p></label>
+							<label><input type="checkbox" name="skill" value="SQL Server" /> <p>SQL Server</p></label>
+						</div>
+					</div>
+				</label>
+				
+				<label>
+					<p class="prompt"> Post:</p>
+						<div class="row">
+							<div class="column">
+								<label><input type="radio" name="post" value="trainee" /><p>Trainee</p></label>
+								<label><input type="radio" name="post" value="team_leader" /><p>Team Leader</p></label>
+							</div>
+							<div class="column">
+								<label><input type="radio" name="post" value="software_engineer" /><p>Software Engineer</p></label>		
+								<label><input type="radio" name="post" value="project_manager" /><p>Project Manager</p></label>
+							</div>
+						</div>
+				</label>
+				
+				<label>
+					<p class="prompt">Upload Resume:</p>
+					<input type="file" name="upload"/>
+				</label>
+				
+				<label>
+					<p class="prompt">Past Resume:</p>
+					<textarea cols="30">past resume here</textarea>
+				</label>
+				
+				<label>
+					<input type="checkbox" name="notify" value="notify" />
+					Notify me by email
+				</label>
+				
+				
+				<label>
+					<input type="radio" name="terms" value="accepted" />
+					I agree with the terms and conditions
+				</label>
+				<label>
+					<input class="form_request" type="submit" value="Submit" />
+					<input class="form_request" type="reset" value="Reset" />
+				</label>
+			</fieldset>
+		</form>
+		
+	</body>
+</html>
