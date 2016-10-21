@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tutorial 6 part 1</title>
+		
+		<link type="stylesheet" rel="stylesheet" href="t6_css.css" />
+		<script type="text/javascript" src="t6_js.js"></script>
+	</head>
+	<body>
+		<h1>Exchange Rate</h1>
+		<form name="exchange">
+			
+			<label>Enter amount to be converted: </label>
+			<input type="text" name="amount" pattern="\d+\.?\d*" required="required"/>
+			
+			<select name="conversion" size="2">
+				<option selected="selected" value="usd">USD</option>
+				<option value="cad">CAD</option>
+			</select>
+			
+			<p id="result"></p>
+			
+			<input type="submit" onclick="foo(); return false;" />
+		</form>
+ 	</body>
+</html>
