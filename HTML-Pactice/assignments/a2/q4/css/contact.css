@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#name	{
+	width:				500px;
+}
+
+.nickname	{
+	font-size:			70%;
+}
+.concordia_id	{
+	display:			block;
+	padding-left:		5em;
+	font-size:			60%;
+}
+
+.info_item	{
+	font-size:			0.9em;
+}
+
+.indent	{
+	padding-left:		2em;
+}

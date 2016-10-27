@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+.body div{
+	margin:				20px;
+	width:				360px;
+	padding:			20px;
+	
+}
+
+#welcome	{
+	background-color:	#7602AB;
+}
+
+#description	{
+	margin-top:			-60px;
+	margin-left:		30%;
+	background-color:	#000000;
+	
+}
+
+#purpose	{
+	margin-top:			-40px;
+	background-color:	#22437E;
+	margin-left:		20%;			
+}

@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+*	{
+	color:				#FFFFFF;
+	font-family:		Arial, "sans-serif";
+}
+
+html, body	{
+	margin:				0;
+	padding:			0;
+	height:				100%;
+	min-width:			1024px;
+}
+
+body	{
+	background-color:	#808080;
+}
+
+#wrapper {
+	min-height:			100%;
+	position:			relative;
+}
+
+#header, #footer {
+	background-color:	#7602AB;
+}
+
+#header	{
+	height:				125px;
+}
+
+#header a	{
+	height:				inherit;
+}
+
+/* logo image	*/
+img#logo	{
+	content:			url("../images/absynth_logo final.png");
+	height:				inherit;
+}
+
+#content_wrapper	{
+	position:			relative;
+	padding:			10px;
+	padding-bottom:		75px;   /* Height of the footer */
+}
+
+#footer	{
+	position:			absolute;
+	bottom:				0;
+	left:				0;
+	width:				100%;
+	line-height:		75px;
+	height:				75px;	/* Height of the footer	*/
+	
+}
+
+#footer a {
+	font-size:			0.7em;
+}
+
+#nav_bar, .title	{
+	background-color:	#22437E;
+}
+
+#nav_bar	{
+	float:				left;
+	width:				17%;
+	max-width:			20 0px;
+	padding:			3%;
+}
+
+#nav_bar ul	{
+	font-size:			1em;
+	padding-left:		0;
+	list-style-type: 	none;
+	list-style-position:none;
+}
+
+#nav_bar li	{
+	padding-top:		5px;
+	padding-bottom:		5px;
+}
+
+#nav_bar a	{
+	display:			block;
+	padding-top:		20px;
+	padding-bottom:		20px;
+	text-decoration:	none;
+	font-size:			1.1em;
+	font-weight:		bold;
+	background-color:	#7602AB;
+}
+
+#nav_bar a:visited 	{
+	color:				#FFFFFF;	/* override's visited grey */
+}
+
+#nav_bar a:hover	{
+	background-color:	#22437E;
+	padding-left:		3em;
+}
+
+#nav_bar a:active	{
+	background-color:	#000000;
+}
+
+#content	{
+	width:				65%;
+	margin-left:		30%;
+	margin-right:		5%;
+/*	background-color:	#B061D5;
+	height:				500px;  		testing purposes*/
+}
+
+#content .body	{
+	font-size:			1.2em;
+}
+
+.body	{
+	position:			relative;
+}
+
+.center {
+    margin: 			auto;
+    text-align:			center;
+}
+
+.title	{
+	max-width:			800px;
+	padding-left:		5em;
+	height:				4em;
+	line-height:		4em;
+	
+}
+
+.body	{
+	padding-left:		5%;
+	max-width:			1000px;
+}
+
+a:visited	{
+	color:				#A6A6A6;
+}
+
+/* some tests */
+
+.height_test	{
+	height:				1000px;
+	width:				500px;
+	background-color:	#000000;
+}
+
+

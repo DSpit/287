@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="keywords" content="absynth, shop
+		david, boivin, concordia, soen, 287, 40004941" />
+		<link type="text/css" rel="stylesheet" href="css./template.css" /> 
+		<link type="text/css" rel="stylesheet" href="css/sell.css" />
+	</head>
+	<body>
+	
+		<div id="wrapper">
+			<!-- header -->
+			<header id="header">
+				<a class="home_link" href="index.html">
+					<img id=logo />
+				</a>
+			</header> <!--  end header -->
+			
+			
+			<!-- Main Content -->
+			
+			<div id="content_wrapper" >
+			
+				<!-- Navigation -->
+				<aside id="nav_bar" class="center">
+					<h2>Navigation</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="catalogue.html">Catalogue</a></li>
+						<li><a href="sell.html">Sell Something</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</aside>	<!-- end navigation -->
+				
+				<!-- Content -->
+				<article id="content">
+					<div class="title">
+						<h2>Sell Something</h2>
+					</div>
+					
+					<div class="body">
+						<form id="sell_form" action="" >
+						
+							<table>
+								<!-- Catagoriy -->
+								<tr id="classification">
+									<th>Clasification of Product:</th>
+									<td>
+										<select name="classification">
+											<option selected="selected">General/Unclasified Items</option>
+											<option>School Supplies</option>
+											<option>Sports Goods</option>
+											<option>Electronics</option>
+											<option>Furniture</option>
+										</select>
+									</td>
+								</tr>
+								
+								<!-- Price -->
+								<tr id="price">
+									<th>Price of Product:</th> 
+									<td><input name="price" type="text" pattern="^+\d\.?\d{0,2}$" /> CAD</td>
+								</tr>
+								
+								<tr id="location">
+									<th>Location:</th> 
+									<td><input name="location" type="text" /></td>
+								</tr>
+								
+								<tr id="description">
+									<th>Description Of Product:</th>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<textarea name="description" rows="5">Enter your product description here
+										</textarea>
+									</td>
+								</tr>
+								
+								<tr id="seller_name">
+									<th>Full Name:</th>
+									<td><input name="seller_name" type="text" pattern="^\w{2,}\s\w{2,}$"/></td>
+									
+								</tr>
+								
+								<tr id="seller_contact">
+									<th>Email:</th>
+									<td><input name="seller_email" type="email" /></td>
+								</tr>
+								
+								<tr id="form_submission">
+									<td><input id="clear" type="reset" value="Clear"/></td>
+									<td><input id="submit" type="submit" value="Sell"/></td>
+								</tr>
+							</table>
+						</form>
+					</div>
+				</article>	<!-- end content  -->
+			
+			</div>	<!-- end main content -->
+			
+			<!-- Footer -->
+			<footer id="footer" class="center">
+				<a href="disclamer.html">Privacy/Disclaimer Statement</a>
+			</footer> <!-- end footer -->
+			
+		</div> <!--  end min wrapper -->
+	</body>
+</html>

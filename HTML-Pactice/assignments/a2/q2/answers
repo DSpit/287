@@ -1,0 +1,38 @@
+Answers for assignment 2 question 2;
+
+a)/[a-z]*\s[0-9]*/
+This pattern describes a string which has 0 or more lowercase letter
+characters ([a-z]*) followed by a white space characer (\s) and ending
+with 0 or more digits ([0-9]*).
+    example:"foohello 12345bar" matches
+
+b)/\d+\.\d*/
+This pattern describes a string with 1 or more digits (/d+) immediatly
+followed by a literal dot (\.) and ending with 0 or more digits (\d*).
+This describes any positive number (which must be followed by a dot, ie "4" 
+would not match).
+   example:"foo34.9000bar" matches
+
+c)/^\d{3}\-\d{4}$/
+This pattern describes a string with 3 consequtive digits (\d{3}), which 
+must appear at the beginning of the string (^) followed by a literal dash 
+(\-) and ending with 4 consecutive digits (\d{4}) which must be at the very
+of the string ($). This descirbes a phone number.
+   example: "333-4444" matches
+
+d)/^[A-Z]\d[A-Z]\-\d[A-Z]\d/
+This pattern describes a string with which must start with (^) an uppercase
+letter character ([A-Z]) followed by a digit (\d) followed by another uppercase
+letter character ([A-Z]). Next the string must contain a literal dash (\-) which
+is followed by a digit (\d), uppercase character ([A-Z]) and a digit (\d). This
+pattern allows characters at the end of the string. This describes a postal code.
+   example: "H4A-2S5bar" matches
+
+e)/(July|August)\s+\d{1,2}(\s|,)\d{4}/g
+This pattern describes a string which has "July" or "August" ((July|August)), one
+or more white space characters (\s+) followed by at least one and at most 2 digits 
+(\d{1,2}) and a white space character or a comma ((\s|,)) and finally 4 consecutive 
+digits (\d{4}). The g modifier indicates that this pattern is to find all matching 
+patterns in a given string rather than stopping at the first. This pattern describes
+a date in the month of July or August.
+    example: "fooJuly   34,9999bar" matches

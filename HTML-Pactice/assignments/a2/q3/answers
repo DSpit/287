@@ -1,0 +1,7 @@
+answers to assignment 2 question 3
+
+a) Matching a Name
+/[A-Z][A-Za-z]*(\s|,)[A-Z][A-Za-z]{1,20}/
+
+b) Matching an Email
+/\w+@[a-zA-Z0-9]+\.com/

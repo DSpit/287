@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.source{
+	padding-left:			5em;
+	font-size:				0.7em;
+	font-weight: 			bold;
+}
+
+.quote{
+	font-sytle:				italic;
+}
+
+.title{
+	padding-left:			0.5em;
+	font-size:				2em;
+	font-weight: 			bold;
+}
+
+div {
+	align:					center;
+	width: 					50%;
+	border:					15px solid grey;
+	background-color:		#FF8E00;
+	margin:					20% 20% 20% 20%;
+	padding:				5% 5% 5% 5%;
+}
