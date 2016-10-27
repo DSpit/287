@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+		
+		<script type="text/javascript" src="t7_js.js"></script>
+	</head>
+	
+	<body>
+	
+		<input type="button" name="Slice" value="Slice" onclick="foo_slice(); return false;" />
+		
+		<input type="button" name="Join" value="Join" onclick="foo_join(); return false;" />
+	
+		<form name="contact_info" action="">
+			<label>
+				First Name: 
+				<input type="text" size="30" name="f_name" />
+			</label>
+			<br />
+			
+			<label>
+				Last Name: 
+				<input type="text" size="30" name="l_name" />
+			</label>
+			<br />
+			<label>
+				Phone Number: 
+				<input type="number" size="30" name="phone" />
+			</label>
+			
+			<br />
+			<input type="submit" onclick="gather_info(); return false;" value="Gather Info" />
+		</form>
+		
+		<div id="output">
+		</div>
+	</body>
+</html>
